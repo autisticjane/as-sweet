@@ -1,0 +1,49 @@
+/*
+Theme Name: As Sweet
+Theme URI: http://lizandcode.com
+Description: A minimalistic theme with warm colors. Part of The Summer Collection; inspired by Ed Sheeran's "Give Me Love"
+Version: 1.0
+Author: Liz Lawson
+Author URI: http://lizandcode.com
+Copyright Liz Lawson
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Wire+One);
+
+/* basics & needed */
+body {background: #C6D3AC;}
+body, p {font: normal 9px georgia; line-height: 13px; color: #000000; text-align: left; max-width: 100%;}
+
+#clear, .clear {clear: both; height: 10px;}
+.center {text-align: center;}
+.left {text-align: left; float: left;}
+.right {text-align: right; float: right;}
+
+/* divs & their classes, if any */
+#container {width: 720px; clear: both; margin: 30px auto;}
+#content {width: 500px; float: right;}
+#blog {width: 500px; background-color: #EB7E78; padding:10px;}
+.date {clear: both; font: normal 12px georgia; line-height: 16px; color: #000000; text-align: left; font-weight:bolder; background: #D3716C; width: 100%; padding: 10px;}
+#sidebar {float:left; max-width: 175px;}
+#sidemod {width: 175px; padding: 10px; background: #4FAA99;}
+.stitle {font: normal 12px georgia; line-height: 16px; color: #000000; text-align: left; font-weight:bolder; background: #67B8AA; width: 175px; padding: 10px;}
+#sidebar a {color: #032821; border-bottom: 1px dotted #032821;}
+#sidebar a:hover {color: #167361; border-bottom: 1px solid #167361;}
+#footer {clear: both; width: 100%; text-align: center;}
+#header {width: 100%; font: normal 60px 'Wire One', sans-serif; color: #032821; height: 60px; text-transform: lowercase; text-align: right; padding-bottom: 10px;}
+#header a {font: normal 60px 'Wire One', sans-serif; color: #032821; height: 60px; text-transform: lowercase; border-bottom: 0;}
+
+/* menu */
+.nav {margin: 0; padding: 0; list-style-type: none; list-style-image: none; list-style: none;}
+.nav li {margin-bottom: 2px;}
+.nav a {color: #032821; border-bottom: 1px dotted #032821;}
+.nav a:hover {color: #167361; border-bottom: 1px solid #167361;}
+
+/* misc. */
+img {max-width: 100%; border: 0;}
+h1 {font-size: 16px;}
+h2 {font-size: 14px;}
+h3 {font-size: 14px; text-align: center;}
+a {font: bold 9px georgia; text-decoration: none; line-height: 14px; color: #B51E3F; border-bottom: 1px dotted #B51E3F;}
+a:hover {border-bottom: 1px solid #B51E3F;}
+b, strong {text-transform: uppercase;}
