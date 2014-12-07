@@ -1,4 +1,4 @@
 assweet
 =======
 
-An HTML/PHP theme
+An HTML template with rather bold colors.
